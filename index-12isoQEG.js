@@ -19031,7 +19031,7 @@ Error generating stack: ` +
               w.jsx("h3", {
                 className:
                   "font-script text-5xl sm:text-6xl text-cream mt-3 text-primary-foreground",
-                children: "Raj & Shivani",
+                children: "Shivani & Raj",
               }),
               w.jsxs("div", {
                 className: "my-5 flex items-center justify-center gap-3",
