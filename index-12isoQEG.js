@@ -18820,16 +18820,16 @@ Error generating stack: ` +
                     children: w.jsx("span", {
                       className:
                         "block font-script text-7xl sm:text-8xl md:text-9xl text-rose leading-none",
-                      children: "Raj",
+                      children: "Shivani",
                     }),
                   }),
                   w.jsxs("p", {
                     className:
                       "mt-3 font-serif-display text-base sm:text-lg text-foreground/80",
                     children: [
-                      "S/o Mr. Vijay Alwani",
+                      "D/o Mr. Sunil Datt Rawal",
                       w.jsx("br", {}),
-                      "& Mrs. Pooja Alwani",
+                      "& Mrs. Vinita Rawal",
                     ],
                   }),
                   w.jsx("p", {
@@ -18842,16 +18842,16 @@ Error generating stack: ` +
                     children: w.jsx("span", {
                       className:
                         "block font-script text-7xl sm:text-8xl md:text-9xl text-rose leading-none",
-                      children: "Shivani",
+                      children: "Raj",
                     }),
                   }),
                   w.jsxs("p", {
                     className:
                       "mt-3 font-serif-display text-base sm:text-lg text-foreground/80 pb-12",
                     children: [
-                      "D/o Mr. Sunil Datt Rawal",
+                      "S/o Mr. Vijay Alwani",
                       w.jsx("br", {}),
-                      "& Mrs. Vinita Rawal",
+                      "& Mrs. Pooja Alwani",
                     ],
                   }),
                 ],
@@ -18964,7 +18964,7 @@ Error generating stack: ` +
                     className: "mt-10",
                     children: w.jsx(yE, {
                       title: "Awaiting your Gracious Presence",
-                      names: ["Mr. Vijay Alwani", "Mrs. Pooja Alwani"],
+                      names: ["Mr. Sunil Datt Rawal", "Mrs. Vinita Rawal"],
                     }),
                   }),
                 ],
