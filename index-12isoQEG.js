@@ -18824,7 +18824,7 @@ Error generating stack: ` +
             children: [
               w.jsx("img", {
                 src: ZS,
-                alt: "Raj and Shivani wedding illustration",
+                alt: "Shivani and Raj wedding illustration",
                 className: "absolute inset-0 w-full h-full object-cover",
                 width: 1920,
                 height: 1080,
@@ -18867,16 +18867,16 @@ Error generating stack: ` +
                     children: w.jsx("span", {
                       className:
                         "block font-script text-7xl sm:text-8xl md:text-9xl text-rose leading-none",
-                      children: "Raj",
+                      children: "Shivani",
                     }),
                   }),
                   w.jsxs("p", {
                     className:
                       "mt-3 font-serif-display text-base sm:text-lg text-foreground/80",
                     children: [
-                      "S/o Mr. Vijay Alwani",
+                      "S/o Mr. Sunil Datt Rawal",
                       w.jsx("br", {}),
-                      "& Mrs. Pooja Alwani",
+                      "& Mrs. Vinita Rawal",
                     ],
                   }),
                   w.jsx("p", {
@@ -18889,16 +18889,16 @@ Error generating stack: ` +
                     children: w.jsx("span", {
                       className:
                         "block font-script text-7xl sm:text-8xl md:text-9xl text-rose leading-none",
-                      children: "Shivani",
+                      children: "Raj",
                     }),
                   }),
                   w.jsxs("p", {
                     className:
                       "mt-3 font-serif-display text-base sm:text-lg text-foreground/80 pb-12",
                     children: [
-                      "D/o Mr. Sunil Datt Rawal",
+                      "D/o Mr. Vijay Alwani",
                       w.jsx("br", {}),
-                      "& Mrs. Vinita Rawal",
+                      "& Mrs. Pooja Alwani",
                     ],
                   }),
                 ],
@@ -19083,7 +19083,7 @@ Error generating stack: ` +
               w.jsx("h3", {
                 className:
                   "font-script text-5xl sm:text-6xl text-cream mt-3 text-primary-foreground",
-                children: "Raj & Shivani",
+                children: "Shivani & Raj",
               }),
               w.jsxs("div", {
                 className: "my-5 flex items-center justify-center gap-3",
@@ -19373,7 +19373,7 @@ Error generating stack: ` +
             })()
           ).setAttribute(
             "content",
-            "Join Raj & Shivani for their wedding celebration on 6 July 2026 at Rajmahal Resort, Nagda Bypass Road, Ujjain.",
+            "Join Shivani & Raj for their wedding celebration on 6 July 2026 at Rajmahal Resort, Nagda Bypass Road, Ujjain.",
           ));
       }, []);
       const o = () => {
