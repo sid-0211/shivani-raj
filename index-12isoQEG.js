@@ -17892,7 +17892,24 @@ Error generating stack: ` +
                               }),
                               w.jsx("div", {
                                 className: `font-serif-display text-lg mt-1 ${g}`,
-                                children: h,
+                                children:
+                                  e === "Haldi Carnival"
+                                    ? [
+                                        "Theme : Beige Color ",
+                                        w.jsx(
+                                          "span",
+                                          {
+                                            className:
+                                              "inline-block h-5 w-5 rounded-full mx-1 align-middle border border-white/60",
+                                            style: {
+                                              backgroundColor: "#E8D8C3",
+                                            },
+                                          },
+                                          "beige-circle",
+                                        ),
+                                        " — light, earthy and festive",
+                                      ]
+                                    : h,
                               }),
                             ],
                           }),
@@ -19355,7 +19372,7 @@ Error generating stack: ` +
       const [e, t] = S.useState(!1),
         [n, r] = S.useState(!1);
       S.useEffect(() => {
-        ((document.title = "Raj & Shivani — Wedding Invitation"),
+        ((document.title = "Shivani & Raj — Wedding Invitation"),
           (
             document.querySelector('meta[name="description"]') ||
             (() => {
