@@ -17705,9 +17705,14 @@ Error generating stack: ` +
     oE = "./bg-gavdev-groom-new-6jrcX2vp.jpg",
     iE = "./couple-haldi-CsWjfUdv.png",
     sE = "./couple-sapthapadi-Zvu2FEVx.png",
-    lE = "./couple-gavdev-DxDeDDBt.png",
-    aE = "./couple-varmala-DBCWuEXF.png",
+    lE = "./couple-ganesh-poojan.png",
+    gpgp = "./GP.png",
+    aE = "./couple-varmala-reception.png",
     uE = "./couple-sangeet-D3VSf4cb.png",
+    abc = "./rajmahal-resort.png",
+    ghodi = "./baraat.png",
+    pqr = "./neww.png",
+    sofa = "./withsofa.png",
     cE = new Date("2026-07-06T00:00:00+05:30").getTime(),
     hf = () => {
       const e = Math.max(0, cE - Date.now());
@@ -17767,6 +17772,7 @@ Error generating stack: ` +
       date: r,
       time: o,
       venue: i,
+      dressCode: h,
       bg: s,
       couple: l,
       tint: a = "bg-cream",
@@ -17871,11 +17877,25 @@ Error generating stack: ` +
                               children: "Venue",
                             }),
                             w.jsx("div", {
-                              className: `font-serif-display text-lg mt-1 ${g}`,
+                              className: `font-serif-display text-lg mt-1 whitespace-pre-line ${g}`,
                               children: i,
                             }),
                           ],
                         }),
+                        e === "Haldi Carnival" &&
+                          h &&
+                          w.jsxs("div", {
+                            children: [
+                              w.jsx("div", {
+                                className: `font-cinzel text-sm ${x}`,
+                                children: "Dress Code",
+                              }),
+                              w.jsx("div", {
+                                className: `font-serif-display text-lg mt-1 ${g}`,
+                                children: h,
+                              }),
+                            ],
+                          }),
                       ],
                     }),
                   ],
@@ -18566,7 +18586,7 @@ Error generating stack: ` +
               v.addColorStop(1, "#b8853f"),
               (p.fillStyle = v),
               p.fillRect(0, 0, h.width, h.height),
-              (p.fillStyle = "rgba(255,255,255,0.35)"),
+              (p.fillStyle = "rgba(0,0,0,0.8)"),
               (p.font = '600 14px "Cinzel", serif'),
               (p.textAlign = "center"),
               (p.textBaseline = "middle"),
@@ -18711,7 +18731,7 @@ Error generating stack: ` +
         icon: "🛕",
         bg: oE,
         dark: !0,
-        couple: lE,
+        couple: gpgp,
       },
       {
         title: "Haldi Carnival",
@@ -18720,12 +18740,26 @@ Error generating stack: ` +
         date: "July 5, 2026",
         time: "02:30 PM onwards",
         venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
-        dressCode: "Yellow florals — bright, breezy and traditional",
+        dressCode: "Theme : Beige Color — light, earthy and festive",
         icon: "🌼",
         bg: tE,
         dark: !0,
-        couple: iE,
+        couple: sofa,
       },
+      // {
+      //   title: "Sangeet",
+      //   description: "A spirited night of song, dance and laughter",
+      //   day: "SUN",
+      //   date: "July 5, 2026",
+      //   time: "08:00 PM onwards",
+      //   venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
+      //   dressCode:
+      //     "Traditional festive — vibrant colours and twinkling embroidery",
+      //   icon: "🎶",
+      //   bg: eE,
+      //   dark: !0,
+      //   couple: uE,
+      // },
       {
         title: "Sangeet",
         description: "A spirited night of song, dance and laughter",
@@ -18741,6 +18775,19 @@ Error generating stack: ` +
         couple: uE,
       },
       {
+        title: "Baraat",
+        description: "Grooms Baraat, full of music and Joy",
+        day: "MON",
+        date: "July 6, 2026",
+        time: "11:30 PM ",
+        venue: "Rajmahal Resort, Nagda Bypass Road, Ujjain",
+        dressCode: "Yellow florals — bright, breezy and traditional",
+        icon: "🕺🏼",
+        bg: abc,
+        dark: !0,
+        couple: ghodi,
+      },
+      {
         title: "Shubh Lagna & Phere",
         description: "The sacred seven vows under the mandap",
         day: "MON",
@@ -18751,7 +18798,7 @@ Error generating stack: ` +
         icon: "💍",
         bg: nE,
         dark: !0,
-        couple: sE,
+        couple: pqr,
       },
       {
         title: "Reception & Varmala",
@@ -18764,7 +18811,7 @@ Error generating stack: ` +
         icon: "🌸",
         bg: rE,
         dark: !0,
-        couple: aE,
+        couple: lE,
       },
     ],
     vE = () => {
@@ -18820,16 +18867,16 @@ Error generating stack: ` +
                     children: w.jsx("span", {
                       className:
                         "block font-script text-7xl sm:text-8xl md:text-9xl text-rose leading-none",
-                      children: "Shivani",
+                      children: "Raj",
                     }),
                   }),
                   w.jsxs("p", {
                     className:
                       "mt-3 font-serif-display text-base sm:text-lg text-foreground/80",
                     children: [
-                      "D/o Mr. Sunil Datt Rawal",
+                      "S/o Mr. Vijay Alwani",
                       w.jsx("br", {}),
-                      "& Mrs. Vinita Rawal",
+                      "& Mrs. Pooja Alwani",
                     ],
                   }),
                   w.jsx("p", {
@@ -18842,16 +18889,16 @@ Error generating stack: ` +
                     children: w.jsx("span", {
                       className:
                         "block font-script text-7xl sm:text-8xl md:text-9xl text-rose leading-none",
-                      children: "Raj",
+                      children: "Shivani",
                     }),
                   }),
                   w.jsxs("p", {
                     className:
                       "mt-3 font-serif-display text-base sm:text-lg text-foreground/80 pb-12",
                     children: [
-                      "S/o Mr. Vijay Alwani",
+                      "D/o Mr. Sunil Datt Rawal",
                       w.jsx("br", {}),
-                      "& Mrs. Pooja Alwani",
+                      "& Mrs. Vinita Rawal",
                     ],
                   }),
                 ],
@@ -18964,7 +19011,12 @@ Error generating stack: ` +
                     className: "mt-10",
                     children: w.jsx(yE, {
                       title: "Awaiting your Gracious Presence",
-                      names: ["Mr. Sunil Datt Rawal", "Mrs. Vinita Rawal"],
+                      names: [
+                        "Mr. Vasudev Alwani",
+                        "Mrs. Parwati Alwani",
+                        "Mr. Vijay Alwani",
+                        "Mrs. Pooja Alwani",
+                      ],
                     }),
                   }),
                 ],
@@ -19031,7 +19083,7 @@ Error generating stack: ` +
               w.jsx("h3", {
                 className:
                   "font-script text-5xl sm:text-6xl text-cream mt-3 text-primary-foreground",
-                children: "Shivani & Raj",
+                children: "Raj & Shivani",
               }),
               w.jsxs("div", {
                 className: "my-5 flex items-center justify-center gap-3",
@@ -19042,13 +19094,12 @@ Error generating stack: ` +
                 ],
               }),
               w.jsx("p", {
-                className: "font-serif-display text-lg italic",
+                className: "font-serif-display text-sm mt-2",
                 children: "6th July 2026",
               }),
               w.jsx("p", {
-                className:
-                  "mt-3 font-cinzel text-xs tracking-widest text-cream/70",
-                children: "#RAJSHIVANI",
+                className: "font-serif-display text-lg italic",
+                children: "Made with love By Siddharth",
               }),
             ],
           }),
@@ -19106,26 +19157,31 @@ Error generating stack: ` +
           w.jsx("span", {
             className:
               "pointer-events-none absolute top-6 left-4 text-4xl opacity-20",
-            children: "🌿",
+            children: "",
+            // children: "🌿",
           }),
           w.jsx("span", {
             className:
               "pointer-events-none absolute top-12 right-6 text-3xl opacity-20",
-            children: "🌸",
+            // children: "🌸",
+            children: "",
           }),
           w.jsx("span", {
             className:
               "pointer-events-none absolute bottom-10 left-10 text-3xl opacity-20",
-            children: "🌼",
+            // children: "🌼",
+            children: "",
           }),
           w.jsx("span", {
             className:
               "pointer-events-none absolute bottom-6 right-4 text-4xl opacity-20",
-            children: "🌿",
+            // children: "🌿",
+            children: "",
           }),
         ],
       }),
-    mf = ["🌸", "🌸", "🌿", "🌸", "🌼", "🌿", "🌸"],
+    //mf = ["🌸", "🌸", "🌿", "🌸", "🌼", "🌿", "🌸"],
+    mf = ["", "", "", "", "", "", ""],
     wE = ({ count: e = 18 }) =>
       w.jsx("div", {
         className: "pointer-events-none fixed inset-0 z-10 overflow-hidden",
@@ -19304,7 +19360,7 @@ Error generating stack: ` +
       const [e, t] = S.useState(!1),
         [n, r] = S.useState(!1);
       S.useEffect(() => {
-        ((document.title = "Raj & Shivani — Wedding Invitation · 6 July 2026"),
+        ((document.title = "Raj & Shivani — Wedding Invitation"),
           (
             document.querySelector('meta[name="description"]') ||
             (() => {
@@ -19327,7 +19383,7 @@ Error generating stack: ` +
         className: "relative",
         children: [
           w.jsx(wE, {}),
-          e && w.jsx(xE, {}),
+          // e && w.jsx(xE, {}),
           w.jsx(SE, { play: n || e }),
           e ? w.jsx(vE, {}) : w.jsx(qS, { onOpen: o, opening: n }),
         ],
