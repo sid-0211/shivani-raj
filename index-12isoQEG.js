@@ -19011,12 +19011,7 @@ Error generating stack: ` +
                     className: "mt-10",
                     children: w.jsx(yE, {
                       title: "Awaiting your Gracious Presence",
-                      names: [
-                        "Mr. Vasudev Alwani",
-                        "Mrs. Parwati Alwani",
-                        "Mr. Vijay Alwani",
-                        "Mrs. Pooja Alwani",
-                      ],
+                      names: ["Mr. Sunil Datt Rawal"],
                     }),
                   }),
                 ],
