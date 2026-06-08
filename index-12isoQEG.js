@@ -18890,11 +18890,7 @@ Error generating stack: ` +
                   w.jsxs("p", {
                     className:
                       "mt-3 font-serif-display text-base sm:text-lg text-foreground/80",
-                    children: [
-                      "D/o Mr. Sunil Datt Rawal",
-                      w.jsx("br", {}),
-                      "& Mrs. Vinita Rawal",
-                    ],
+                    children: ["D/o Mr. Sunil Datt Rawal"],
                   }),
                   w.jsx("p", {
                     className:
