@@ -18891,7 +18891,7 @@ Error generating stack: ` +
                     className:
                       "mt-3 font-serif-display text-base sm:text-lg text-foreground/80",
                     children: [
-                      "S/o Mr. Sunil Datt Rawal",
+                      "D/o Mr. Sunil Datt Rawal",
                       w.jsx("br", {}),
                       "& Mrs. Vinita Rawal",
                     ],
@@ -18913,7 +18913,7 @@ Error generating stack: ` +
                     className:
                       "mt-3 font-serif-display text-base sm:text-lg text-foreground/80 pb-12",
                     children: [
-                      "D/o Mr. Vijay Alwani",
+                      "S/o Mr. Vijay Alwani",
                       w.jsx("br", {}),
                       "& Mrs. Pooja Alwani",
                     ],
